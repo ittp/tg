@@ -1,0 +1,108 @@
+[[package]]
+category = "main"
+description = "Python package for providing Mozilla's CA Bundle."
+name = "certifi"
+optional = false
+python-versions = "*"
+version = "2020.4.5.1"
+
+[[package]]
+category = "main"
+description = "Universal encoding detector for Python 2 and 3"
+name = "chardet"
+optional = false
+python-versions = "*"
+version = "3.0.4"
+
+[[package]]
+category = "main"
+description = "Internationalized Domain Names in Applications (IDNA)"
+name = "idna"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "2.9"
+
+[[package]]
+category = "main"
+description = "Cross-platform lib for process and system monitoring in Python."
+name = "psutil"
+optional = false
+python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "5.7.0"
+
+[[package]]
+category = "main"
+description = "Time expression parser"
+name = "pytimeparse"
+optional = false
+python-versions = "*"
+version = "1.1.8"
+
+[[package]]
+category = "main"
+description = "World timezone definitions, modern and historical"
+name = "pytz"
+optional = false
+python-versions = "*"
+version = "2020.1"
+
+[[package]]
+category = "main"
+description = "Python HTTP for Humans."
+name = "requests"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+version = "2.23.0"
+
+[package.dependencies]
+certifi = ">=2017.4.17"
+chardet = ">=3.0.2,<4"
+idna = ">=2.5,<3"
+urllib3 = ">=1.21.1,<1.25.0 || >1.25.0,<1.25.1 || >1.25.1,<1.26"
+
+[[package]]
+category = "main"
+description = "A very simple sqlite framework"
+name = "sqlite-framework"
+optional = false
+python-versions = "*"
+version = "1.2.0"
+
+[[package]]
+category = "main"
+description = "Python Telegram bot API framework"
+name = "telegram-bot-framework"
+optional = false
+python-versions = ">=3"
+version = "3.14.1"
+
+[package.dependencies]
+psutil = "*"
+pytimeparse = "*"
+pytz = "*"
+requests = "*"
+sqlite-framework = "*"
+
+[[package]]
+category = "main"
+description = "HTTP library with thread-safe connection pooling, file post, and more."
+name = "urllib3"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4"
+version = "1.25.9"
+
+[metadata]
+content-hash = "d74d7ad585050a14fe308ae450b36118e2d982f941325e91d641d7be8898a9ec"
+python-versions = "^3.8"
+
+[metadata.hashes]
+certifi = ["1d987a998c75633c40847cc966fcf5904906c920a7f17ef374f5aa4282abd304", "51fcb31174be6e6664c5f69e3e1691a2d72a1a12e90f872cbdb1567eb47b6519"]
+chardet = ["84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae", "fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"]
+idna = ["7588d1c14ae4c77d74036e8c22ff447b26d0fde8f007354fd48a7814db15b7cb", "a068a21ceac8a4d63dbfd964670474107f541babbd2250d61922f029858365fa"]
+psutil = ["1413f4158eb50e110777c4f15d7c759521703bd6beb58926f1d562da40180058", "298af2f14b635c3c7118fd9183843f4e73e681bb6f01e12284d4d70d48a60953", "60b86f327c198561f101a92be1995f9ae0399736b6eced8f24af41ec64fb88d4", "685ec16ca14d079455892f25bd124df26ff9137664af445563c1bd36629b5e0e", "73f35ab66c6c7a9ce82ba44b1e9b1050be2a80cd4dcc3352cc108656b115c74f", "75e22717d4dbc7ca529ec5063000b2b294fc9a367f9c9ede1f65846c7955fd38", "a02f4ac50d4a23253b68233b07e7cdb567bd025b982d5cf0ee78296990c22d9e", "d008ddc00c6906ec80040d26dc2d3e3962109e40ad07fd8a12d0284ce5e0e4f8", "d84029b190c8a66a946e28b4d3934d2ca1528ec94764b180f7d6ea57b0e75e26", "e2d0c5b07c6fe5a87fa27b7855017edb0d52ee73b71e6ee368fae268605cc3f5", "f344ca230dd8e8d5eee16827596f1c22ec0876127c28e800d7ae20ed44c4b310"]
+pytimeparse = ["04b7be6cc8bd9f5647a6325444926c3ac34ee6bc7e69da4367ba282f076036bd", "e86136477be924d7e670646a98561957e8ca7308d44841e21f5ddea757556a0a"]
+pytz = ["a494d53b6d39c3c6e44c3bec237336e14305e4f29bbf800b599253057fbb79ed", "c35965d010ce31b23eeb663ed3cc8c906275d6be1a34393a1d73a41febf4a048"]
+requests = ["43999036bfa82904b6af1d99e4882b560e5e2c68e5c4b0aa03b655f3d7d73fee", "b3f43d496c6daba4493e7c431722aeb7dbc6288f52a6e04e7b6023b0247817e6"]
+sqlite-framework = ["8849159b9f43013f19245faea2464071b2cc199bb638f7539127636cda76e847", "be88e9ccb3417347e1b8d953765dbefd2ae9ae9050302b69b3616ddd43fdbd73"]
+telegram-bot-framework = ["50c5b79fa95ed006548ab1dbdcca2ccd3fe713421e75ea1b82abacdd37c8c60a", "cc17f3a7c82147a2a3fde99c49add1ad06f709b744b03c8338779c65a6cf19a9"]
+urllib3 = ["3018294ebefce6572a474f0604c2021e33b3fd8006ecd11d62107a5d2a963527", "88206b0eb87e6d677d424843ac5209e3fb9d0190d0ee169599165ec25e9d9115"]
